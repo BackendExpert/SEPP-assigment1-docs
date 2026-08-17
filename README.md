@@ -44,3 +44,19 @@
 3.	Technical Support 
 4.	After-Sales Support 
 5.	Overall Experience 
+
+### Customers can:
+-	Write review 
+-	Give ratings 
+-	Comment 
+-	Reply to comments 
+-	Report review 
+
+### Company can:
+
+-	Respond 
+
+### Moderator:
+
+-	Approve 
+-	Reject
