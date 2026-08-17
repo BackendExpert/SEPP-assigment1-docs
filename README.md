@@ -113,3 +113,150 @@
 - Customer 
 - Admin 
 - Moderator
+
+
+
+## React Native Mobile App
+
+```text
+
+Login
+ ↓
+Home
+ ↓
+Catalogue
+ ↓
+Search
+ ↓
+Equipment Details
+ ↓
+Rental Calculator
+ ↓
+Quotation
+ ↓
+Reviews
+ ↓
+AI Assistant
+
+```
+
+## Final architecture
+
+```text
+
+                 ┌──────────────────┐
+                 │ Customer Website │
+                 │ React + Vite     │
+                 └────────┬─────────┘
+                          │
+                 ┌────────▼─────────┐
+                 │ Customer Mobile  │
+                 │ React Native     │
+                 └────────┬─────────┘
+                          │
+                 ┌────────▼─────────┐
+                 │    NestJS API    │
+                 └────────┬─────────┘
+                          │
+       ┌──────────────────┼──────────────────┐
+       │                  │                  │
+       ▼                  ▼                  ▼
+  Catalogue         Rental Engine       Review System
+       │                  │                  │
+       │             VAT/Holidays       Moderation
+       │                  │                  │
+       └──────────────────┼──────────────────┘
+                          │
+                    ┌─────▼─────┐
+                    │   MongoDB │
+                    └───────────┘
+                          │
+                    ┌─────▼─────┐
+                    │ AI Service│
+                    └─────┬─────┘
+                          │
+                 Fine-tuned Model
+                          +
+                         RAG
+                          +
+                    Tool Calling
+
+```
+
+
+## MVP should actually be this
+
+### Backend
+
+- NestJS
+- MongoDB
+
+- Auth
+- Equipment
+- Categories
+- Branches
+- Pricing
+- Holidays
+- Quotation
+- Reviews
+- Moderation
+- AI
+
+### Catalogue
+
+- Search
+- Equipment Details
+- Rental Calculator
+- Quotation
+- Reviews
+- AI
+- Admin
+
+
+### Mobile
+
+- Catalogue
+- Search
+- Equipment
+- Quotation
+- Reviews
+- AI
+
+### AI
+
+```text
+
+Fine-tuned model
++
+RAG
++
+Tool calling
++
+English/Sinhala/Tamil
+
+```
+
+
+## AI features
+
+### AI Customer Service Assistant
+
+This should be the main AI feature.
+
+Customer can ask naturally:
+
+```text
+
+
+"I need a machine for removing water from a construction site."
+
+"What equipment can I rent for painting a house?"
+
+"Can I get a generator from Kandy?"
+
+"How much would a pressure washer cost for three days?"
+
+
+```
+
+The AI understands the request and helps the customer.
