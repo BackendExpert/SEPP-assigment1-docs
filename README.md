@@ -374,3 +374,85 @@ Fine-tuned AI
 
 - AI access to DB and filtering data
 
+
+# Tool Rental Product List
+
+## Construction
+
+- Rotary Hammer
+- SDS Hammer Drill
+- Demolition Hammer
+- Concrete Mixer
+- Plate Compactor
+- Concrete Vibrator
+- Cut-Off Saw
+- Angle Grinder
+- Core Drill
+- Diamond Cutter
+- Tile Cutter
+- Rebar Cutter
+- Rebar Bender
+- Laser Level
+- Rotary Laser
+- Jackhammer
+- Scaffold Tower
+- Material Hoist
+- Floor Grinder
+- Concrete Planer
+
+## Cleaning
+
+- Pressure Washer
+- Wet/Dry Vacuum
+- Carpet Cleaner
+- Floor Scrubber
+- Floor Polisher
+- Steam Cleaner
+- High-Pressure Cleaner
+- Drain Cleaner
+- Industrial Vacuum
+- Upholstery Cleaner
+- Sweeper
+- Air Mover
+
+## Landscaping
+
+- Brush Cutter
+- Hedge Trimmer
+- Chainsaw
+- Lawn Mower
+- Sod Cutter
+- Stump Grinder
+- Wood Chipper
+- Leaf Blower
+- Earth Auger
+- Tiller
+- Scarifier
+- Pole Saw
+
+## Power
+
+- Petrol Generator
+- Diesel Generator
+- Inverter Generator
+- Portable Power Station
+- Battery Power Station
+- Generator Transfer Switch
+- Extension Distribution Board
+- Site Transformer
+- Portable Lighting Tower
+- Work Light
+
+## Pumps
+
+- Submersible Drainage Pump
+- Dirty-Water Pump
+- Clean-Water Pump
+- Sewage Pump
+- Petrol Water Pump
+- Diesel Water Pump
+- High-Pressure Pump
+- Trash Pump
+- Dewatering Pump
+- Sludge Pump
+
