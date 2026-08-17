@@ -260,3 +260,117 @@ Customer can ask naturally:
 ```
 
 The AI understands the request and helps the customer.
+
+### AI Equipment Search
+
+ "I need a powerful drill for concrete."
+
+- AI work
+
+```text
+
+Customer request
+      ↓
+Fine-tuned model
+      ↓
+Understand intent
+      ↓
+Equipment search API
+      ↓
+MongoDB
+      ↓
+Suitable equipment
+      ↓
+AI response
+
+
+```
+
+### AI Rental Cost Assistant
+
+```text
+
+"How much is this generator from September 8 at 9 AM until September 10 at 3 PM?"
+
+```
+
+
+```text
+
+Customer
+   ↓
+AI
+   ↓
+Extract:
+equipment
+start
+end
+branch
+   ↓
+NestJS quotation API
+   ↓
+Rental Engine
+   ↓
+Holiday calculation
+   ↓
+Pricing
+   ↓
+VAT
+   ↓
+Quotation
+   ↓
+AI explains result
+
+
+```
+
+### AI Equipment Information Assistant - Rag vectorDB 
+
+```text
+
+"What is this machine used for?"
+
+```
+
+- rag vector workflow
+
+```text
+
+Equipment manuals
+Equipment descriptions
+Specifications
+Safety documentation
+FAQs
+        ↓
+Embedding
+        ↓
+Vector database
+        ↓
+RAG
+        ↓
+Fine-tuned AI
+
+```
+
+### AI FAQ / Policy Assistant
+
+- chatbot
+
+- create pdf upload 
+
+
+## for AI
+
+### Fine-tuning
+
+- Teach your model:
+
+- - Customer-service behaviour
+- - Domain terminology
+- - Response style
+- - Intent recognition
+- - Equipment-related conversational patterns
+- - Sinhala/Tamil/English patterns
+
+- AI access to DB and filtering data
+
