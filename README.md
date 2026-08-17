@@ -60,3 +60,56 @@
 
 -	Approve 
 -	Reject
+
+
+## Multilingual Support
+
+- For the prototype:
+- -  UI can support the three languages 
+- -  Reviews support all three 
+- -  Comments support all three 
+- -  AI supports all three
+
+
+## Admin Portal
+
+### Equipment
+
+- Add 
+- Edit 
+- Delete/archive 
+- Images 
+- Description 
+- Specifications 
+- Category 
+
+### Pricing
+
+- Hourly 
+- Daily 
+- Weekly 
+- Monthly/long-term 
+
+### Branches
+
+- Add/edit 
+- Opening hours 
+- Closure status 
+
+### Holidays
+
+- Poya days 
+- Public holidays 
+
+### Reviews
+
+- Pending 
+- Approve 
+- Reject 
+- Hide 
+
+### Users
+
+- Customer 
+- Admin 
+- Moderator
